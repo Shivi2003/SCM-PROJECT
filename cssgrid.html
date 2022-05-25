@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        *{
+            margin: 8px;
+            padding: 8px;
+        }
+
+        .container {
+
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 10px;
+            grid-auto-rows: minmax(150px,auto);
+         }
+
+        .item {
+            border: 4px solid rgb(216, 108, 184);
+            border-radius: 10px;
+         }
+
+        .item:hover {
+            font-weight: bolder;
+            border-color: rgb(139, 100, 130);
+            }
+        img:hover{
+            border: none;
+        }
+        h1:hover{
+            color: rgb(155, 82, 137);
+        }
+        body{
+            background-color: rgb(128, 58, 90);
+        }
+
+        #a {
+            background-color:rgb(214, 149, 209);
+            height: 500px;
+            
+        }
+
+        #b {
+            background-color:rgb(214, 149, 209);
+            height: 500px;
+
+        }
+
+        #c {
+            background-color:rgb(214, 149, 209);
+            height: 500px;
+        }
+
+        #d {
+            background-color:rgb(214, 149, 209);
+            height: 500px;
+        }
+
+        #e {
+            background-color:rgb(214, 149, 209) ;
+            height: 500px;
+
+        }
+
+        #f {
+            background-color:rgb(214, 149, 209) ;
+            height: 500px;
+        }
+
+        img{
+           
+            width: 260px;;
+            height: 170px;
+            border-radius: 10px;
+            padding: 10px;
+            align-content: space-between;
+        }
+        h1{
+            text-transform: capitalize;
+            color: rgb(129, 25, 112);
+        }
+        div{
+            text-align: center;
+            font-family:emoji; 
+            margin-left: 50px;
+            margin-right: 30px;
+
+        }
+            
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+       
+            <div class="item" id="a"><a href="entertainment.html"><img src="./pics/neflix2.jpg"></a><p><h3>Let's awake all our emotions.Get back the thrill,suspense,fear,laughter,love and fun in life.Check out new series to watch now</h3></p></div>
+
+            <div class="item" id="b"><a href="travel.html"><img src="./exploregrid pics/travel.jpg"></a><h1></h1><p><h3>Travel is my therapy and yours??Travel makes you explore new things,relaxes your mind and helps you to come out of your hectic scheduled life.So, come travel with us.</h3></p></div>
+
+            <div class="item" id="c"><a href="food blog.html"><img src="./exploregrid pics/food.jpg"></a><h1></h1><p><h4>A foodie’s paradise, World is filled with many opportunities to taste local delicacies and tantalise the taste buds. With so many dishes having been exported though, it’s sometimes difficult to distinguish between authentic dishes and watered-down versions.</h4></p></div>
+            <br>
+            <div class="item" id="d"><a href="brands.html"><img src="./exploregrid pics/f.jpg" height="200px"></a><h1></h1><p><h3>The new fashions are now on display.What celebrities are wearing these days.All fashion updates only on fusionfy.Check them out</h3></p></div>
+           
+            <div class="item" id="e"><a href="tech blog.html"><img src="./pics/tech1.jpg"></a><h1></h1><p><h3>In today’s world, technology is the most powerful sector which is shaping the world economy by setting new trends and driving transformational changes across all business segments. </h3></p></div>
+
+            <div class="item" id="f"><a href="health.html"><img src="./exploregrid pics/fitness.png"></a><p><h3>Physical fitness is a state of health and well-being and, more specifically, the ability to perform aspects of sports, occupations and daily activities.</h3></p></div>
+
+                
+                </div>
+            
+            
+            
+            
+    </div>
+
+
+</body>
+
+</html>

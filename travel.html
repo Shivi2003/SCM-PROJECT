@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/36293ee5d5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel and Tourism</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        header {
+            background-color: rgb(29, 138, 211);
+            color: white;
+            height: 695px;
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            padding: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: larger;
+        }
+
+        nav.nav ul li a:hover {
+            color: orange;
+
+
+            font-weight: bolder;
+
+        }
+
+        nav.nav ul li:hover {
+            background-color: white;
+        }
+        img{
+            margin: 0;
+            padding: 0;
+            padding-left: 10px;
+            padding-top: 10px;
+
+        }
+       .pics{
+           display: inline;
+       }
+        .scenery {
+
+            margin: 0;
+            padding: 0;
+            background: no-repeat url(./travelpics/359168.jpg);
+
+
+            background-size: cover;
+            height: 630px;
+
+        }
+
+
+        .sidenavbar ul {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            font-size: 25px;
+            margin-top: 20px;
+           
+
+            float: right;
+            background-color: rgb(228, 227, 216);
+            width: 300px;
+
+
+        }
+
+        ul {
+            font-size: 25px;
+            margin-left: 20px;
+            }
+            
+
+
+        .logo{
+            margin-left: 10px;
+        }
+        main a{
+            font-size: 25px;
+            color: tomato;
+        }
+        main a:hover{
+            color: blue;
+        }
+        
+
+
+
+
+
+        h1 {
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 60px;
+            text-transform: uppercase;
+            color: rgb(255, 255, 255);
+
+
+            padding-top: 160px;
+
+
+        }
+
+
+        main h2 {
+            text-transform: capitalize;
+            color: crimson;
+        }
+
+        main h2:hover {
+            color: blue;
+        }
+
+        main {
+            margin: 20px;
+            
+            margin-right: 350px;
+
+
+
+        }
+
+      
+
+
+
+
+       
+        .footer {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            height: 100%;
+
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+
+        }
+
+
+
+
+        p {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+
+
+        }
+
+        h2 {
+            font-size: 35px;
+        }
+
+
+
+        nav ul {
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #a {
+            color: crimson;
+
+        }
+
+
+        .nav-icon {
+            padding: 20px;
+            font-size: 20px;
+
+        }
+
+        .nav-icon i:hover {
+            color: yellow;
+        }
+
+
+
+        .nav-icon i {
+            padding-left: 20px;
+            color: white;
+            margin: 0;
+
+
+
+        }
+
+        nav .nav-menu {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav">
+            <div class="nav-menu">
+
+                <div class="logo">
+                    <h2>Travelfy</h2>
+                    It's time to adventure
+                </div>
+
+
+
+
+
+
+
+
+                <ul>
+                    <li><a href="https://www.trivago.in/">Places to stay</a></li>
+                    <li><a href="https://www.myntra.com/">Shopping</a></li>
+                    <li><a
+                            href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjKp__RsaP1AhUNHCsKHZsoCVQYABAAGgJzZg&ae=2&ohost=www.google.com&cid=CAESQOD2sJts69Tb5KNMKHl-LUjnm5AiMzmW5ZCQ5UHtiOIXsvOPtL5JlGUX4eXcKUU2kOlBdFnQIpiPW4gVJtQErTI&sig=AOD64_1jD0d46T6VvfAZj3EWkqGELjOTvA&q&adurl&ved=2ahUKEwig2fjRsaP1AhU5T2wGHZ1qBeEQ0Qx6BAgDEAE">Flights</a>
+                    </li>
+                    <li><a
+                            href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiD3NH5saP1AhX5kmYCHS3gDEgYABABGgJzbQ&ohost=www.google.com&cid=CAESQOD2EMCbXVP_SCbcDVWOLG3eiP74ow_hz7xCMfwg_Qd69UMTW25jgMt864rQSPpne7SHa3uktB0VH3WHuIwZHCI&sig=AOD64_1vEXehLO7qPpzHriuaKKXorCJISQ&q&adurl&ved=2ahUKEwjJmcv5saP1AhU7UGwGHT2QC9kQ0Qx6BAgFEAE">Cruise</a>
+                    </li>
+                    <li><a href="https://www.youtube.com/watch?v=3GXt4c0MK3I">Video</a></li>
+
+                </ul>
+
+
+                <div class="nav-icon">
+
+
+                    <a href="#"><i class="fas fa-home"></i></a>
+                    <a href="#"><i class="fas fa-bars"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+
+                </div>
+            </div>
+        </nav>
+        <div class="scenery">
+            <h1>Top <br>
+                10 travel
+                <br> destinations in the
+                <br> World
+            </h1>
+        </div>
+
+
+    </header>
+
+
+
+    <div class="sidenavbar">
+        <ul>
+            <img src="travelpics/download (2).jpg">
+            <a
+                href="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftraveltriangle.com%2Fblog%2Fbest-honeymoon-destinations-in-the-world%2F&psig=AOvVaw3VNmss2ZHP2QWYY8W4g2Zy&ust=1641784030488000&source=images&cd=vfe&ved=0CAwQjhxqFwoTCJjV-IXZo_UCFQAAAAAdAAAAABAD">95
+                Best Honeymoon Destinations In The World </a>
+            <img src="./travelpics/000.jpg">
+            <a
+                href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.planetware.com%2Fworld%2Ftop-places-to-visit-in-the-world-us-az-234.htm&psig=AOvVaw0o_IdJxubBqx3SGLTJGcbX&ust=1641784392077000&source=images&cd=vfe&ved=0CAwQjhxqFwoTCJCui9PZo_UCFQAAAAAdAAAAABAD">15
+                Top Places to Visit in the World</a>
+            <img src="pics\398.jpg">
+            <a
+                href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcurlytales.com%2Fmagical-places-on-earth%2F&psig=AOvVaw1oUzEdSqIOu3pnAfOEfjIL&ust=1641784886729000&source=images&cd=vfe&ved=2ahUKEwi_8YS526P1AhXW-zgGHbQ7ByAQr4kDegUIARC5AQ">25
+                Most Magical Places On Earth You Won’t Believe Exist</a>
+            <img src="pics\bre.jpg">
+            <a
+                href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.cheapism.com%2Fmost-beautiful-views-in-the-world%2F&psig=AOvVaw2AzOYs9X-YDRvEQbwTFnW-&ust=1642543192904000&source=images&cd=vfe&ved=2ahUKEwjn6Myt5Ln1AhV1pOkKHdY_CtoQr4kDegUIARC4AQ">Most
+                breathtaking views in the world</a>
+            <img src="pics\ad.jpg">
+            <a
+                href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.hellotravel.com%2Fstories%2F5-best-adventurous-places-in-world&psig=AOvVaw3-fBmJYaRVpFGGSP8xttFK&ust=1642541777217000&source=images&cd=vfe&ved=0CAwQjhxqFwoTCIjt65rhufUCFQAAAAAdAAAAABAD">Best
+                5 Adventurous Places in the World</a>
+            <img src="pics\india.jpg">
+            <a
+                href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.transindiatravels.com%2Findia%2Fbest-places-to-visit-in-india%2F&psig=AOvVaw07arit5kXGOLyQVdD5Ep51&ust=1642543391285000&source=images&cd=vfe&ved=2ahUKEwjE_piM5bn1AhWTjtgFHbGKA7oQr4kDegUIARDAAQ">Most
+                Popular places in India</a>
+        </ul>
+    </div>
+
+    <main>
+        <h2>1. Great Barrier Reef, Australia – Great Natural Wonder</h2>
+        <!-- <div class="pics">  -->
+            <img src="pics\a.jpg"><img src="pics\aus.jpg" height="300px"><img src="pics\R.jpg" height="300px">
+        <!-- </div> -->
+        <p> One of the most remarkable Australian natural gifts is the Great Barrier Reef. The hallmark of this place is
+            ‘lavish’ and ‘beauty’. So if you want to see this grandeur of nature in Australia, you need to spend money
+            and come & stay at the most luxurious places the Reef has to offer. This place is blessed with the
+            breathtaking
+            beauty of the world’s largest coral reef.</p>
+
+        <p>The reef contains an abundance of marine life and comprises over 3000 individual reef systems and coral cays
+            and
+            hundreds of picturesque tropical islands. It also boasts of some of the world’s most beautiful sun-soaked,
+            golden beaches. Because of its natural beauty, the Great Barrier Reef has become one of the world’s best
+            travel
+            destinations.
+        <p>
+
+        <p><b> Best time to visit the Great Barrier Reef?</b></p>
+
+        <p>The best time to visit the Great Barrier Reef is between June to October. During this time you get to view
+            the
+            clear water allowing you to take that deep dive into it.</p>
+
+        <p><b>Best places to visit in the Great Barrier Reef:</b></p>
+        <ul>
+            <li>Whitehaven beac</li>
+
+            <li>Heart ree</li>
+
+            <li>Yongala Shipwrec</li>
+
+            <li>Mon Repos</li>
+
+            <li> Lady Elliot Isla</li>
+
+            <li> Milin Ree</li>
+
+            <li>Opal Reef</li>
+        </ul>
+        <p><a href="t.html"> Back To Top</a></p>
+
+
+
+
+        <h2>2. Machu Picchu, Peru – The Sun Gate</h2>
+        <!-- <div class="pics"> -->
+            <img src="pics\mp.jpg" height="655px"><img src="pics\44.jpg" height="300px"><img src="pics\55.jpg" height="300px">
+        <!-- </div> -->
+        <br>
+        <p> Huayna Picchu is a mountain in Peru, rising over Machu Picchu, the so-called Lost City of Incas. This place
+            is
+            popular among tourists as the sunrise from the Sun Gate is simply spectacular. The hills here proffer one of
+            the
+            most marvelous views of the main square of Machu Picchu, with the sun in the backdrop.</p>
+
+        <p>The setting sun each day is something to look forward to with the hues it spreads. This place is widely rated
+            as
+            one of the world’s greatest ancient archaeological sites.</p>
+
+        <p><i> The interesting fact about Picchu is that only 400 people are allowed to climb the hills in a day.</i>
+        </p>
+
+        <p><b>Top-Rated Tourist Attractions in Machu Picchu:</b></p>
+        <ul>
+            <li>Huayna Picchu</li>
+            <li>Inti Punku</li>
+            <li> Winay Wayna</li>
+            <li>Temple of the moon</li>
+            <li> Puyupatamrca</li>
+            <li>Llaqtapata, Putucusi</li>
+            <li>Los Jardine de Mandor</li>
+            <li> Sayacmarca
+        </ul>
+        <p> <a href="t.html"> Back To Top</a></p>
+
+
+        <h2> 3. Paris, France – Most Visited City in the World</h2>
+        <div class="pics"> <img src="pics\to.jpg" height="500px"><img src="pics\66.jpg" height="500px"><img src="pics\se.jpg" height="700px"></div><br>
+        <p> A whopping 89.4 million tourists visiting France each year is not in vain. It certainly has a reason and
+            Paris
+            is perhaps one BIG reason. It’s almost impossible to not fall in love with this city. It is full of history,
+            beauty, and love. The city exudes culture, class, style and sophistication above all.</p>
+
+        <p> Watch the Eiffel Tower and become a poet or photographer instantly as you naturally draw inspiration from
+            these
+            and like of these in Paris. Be in awe when you observe the massive Notre Dame Cathedral, the Louvre Museum
+            and
+            the list is endless.</p>
+
+        <p> <b>Best place to visit in Paris:</b></p>
+        <ul>
+            <li>Eiffel Tower</li>
+            <li>Notre Dame Cathedral</li>
+            <li>Louvre Museum</li>
+            <li>Montmartre – Wall of Love</li>
+            <li>Moulin Rouge</li>
+            <li>Tuileries Garden</li>
+        </ul>
+
+        <p> <a href="t.html"> Back To Top</a></p>
+
+
+
+        <h2> 4. New York, United States – The city which Never Sleeps</h2>
+        <div class="pics"> <img src="pics\78.jpg"><img src="pics\555.jpg" height="300px"><img src="pics\mu.jpg" height="600px"></div><br>
+        <p> A city that forever awakens and observes an influx of people throughout the year, you will be thoroughly
+            awed by
+            the skyscrapers in the city. These skyscrapers are built for a reason, and they restore incredible art
+            galleries, and museums, some amazing contemporary cuisine restaurants, and a catalog of things.</p>
+
+        <p> New York is one city that is bestowed by its designers with an infrastructure to please one and all. No
+            traveler
+            has been disappointed ever while visiting New York. Here you can feel the synergy between urban and natural
+            areas and how the greens have been retained irrespective of major developments in the city.</p>
+
+        <p> <b>Top-Rated Tourist Attractions in New York City:</b></p>
+        <ul>
+            <li>Statue of Liberty</li>
+            <li>Ellis Island</li>
+            <li>Central Park</li>
+            <li> Little Italy and Chinatown</li>
+            <li> Brooklyn Bridge</li>
+            <li> Metropolitan Museum of Art</li>
+            <li> Grand Central Terminal</li>
+            <li> Financial District</li>
+            <li> 9/11 Memorial</li>
+            <li> Broadway Show</li>
+        </ul>
+        <p><b> Interesting Fact:</b></p>
+
+        <p><i>More than 60 million people visit this city every year.</i></p>
+        <p> <a href="t.html"> Back To Top</a></p>
+
+
+
+
+        <h2> 5. Greece:</h2>
+        <div class="pics"> <img src="pics\77.jpg"><img src="pics\90.jpg" height="300px"><img src="pics\pi.jpg" height="750px"></div><br>
+        <p> Greece is one of the best places to travel in the World. It is a home of 6,000 islands (only 227 islands are
+            inhabited), world-famous historical sites, beautiful beaches, ancient archaeological sites, towering
+            mountain
+            ranges and an evergreen charming climate. There are dozen of international airports so reaching here is so
+            easy
+            and affordable.</p>
+
+        <p><b>Top Tourist attraction in Greece:</b></p>
+        <ul>
+            <li>Santorini</li>
+            <li> Zakynthos</li>
+            <li> Corfu</li>
+            <li>Crete</li>
+            <li> Mykonos</li>
+            <li> Acropolis, Athens</li>
+            <li> Delph</li>
+        </ul>
+        <p> <a href="t.html"> Back To Top</a></p>
+
+
+
+        <h2> 6. Blue Lake Luzern, Switzerland</h2>
+        <div class="pics"> <img src="pics\71.jpg" height="900px"><img src="pics\sw.jpg" height="900px"><img src="pics\mt.jpg" height="900px"></div><br>
+
+        <p> Lucerne, a city in Central Switzerland, without a doubt, justifies the claim of the most lovely city in
+            Switzerland and also the most beautiful vacation spots in the world.</p>
+
+        <p>Every year more than 9 million tourists witness this beautiful place. It is a paradise for newlyweds and you
+            will often observe couples there.</p>
+
+        <p> Moreover, the blue waters in the city and the greens together synergize into making this one of the most
+            visited
+            places in Switzerland. Lucerne is famous for its postcard views and lovely weather.</p>
+
+        <p><b>Major Tourist Attractions in Lucerne:</b></p>
+        <ul>
+            <li> Old Town, Lucerne</li>
+            <li> Mount Pilatus</li>
+            <li> Chapel Bridge</li>
+            <li>Mount Rigi</li>
+            <li>Lake Lucerne</li>
+            <li>Natur-Museum Lucerne</li>
+            <li> Lion Monument</li>
+            <li>Spreuer Bridge</li>
+            <li> Swiss Museum of Transport</li>
+        </ul>
+        <p> <a href="t.html"> Back To Top</a></p>
+
+
+        <h2> 7. Niagara Falls, Canada/USA</h2>
+        <div class="pics"><img src="pics\72.jpg" height="500px"><img src="pics\sk.jpg" height="500px"><img src="pics\qu.jpg" height="700px" width="900px"></div><br>
+        <p>Niagara Falls is one of the highest waterfalls in the world. It is a collection of three waterfall which is
+            located on the US-Canada border along with the Niagara River. Niagara Falls is famous for its majestic
+            height
+            (51 Meters) and shocking flow rate (225,000 Cubic feet per second).</p>
+
+        <p> Every year more than 30 million people visit it. You can see this waterfall from both Canada and US. There
+            is a
+            number of viewpoints of this waterfall like Skylon Tower, Queen Victoria Park, Table rock etc. Even you can
+            book
+            a room near to this waterfall which allows you to see it from your bed.</p>
+        <p> <a href="traveldiya.html"> Back To Top</a></p>
+
+
+
+        <h2> 8. Budapest, Hungary, Europe – City of Baths</h2>
+        <div class="pics"><img src="pics\73.jpg" height="700px"><img src="pics\li.jpg"><img src="pics\bud.jpg" height="750px"></div><br>
+        <p> Budapest is home of art or culture and one of the best tourist destinations in Europe. Here you will witness
+            one
+            of the biggest parliament buildings of world, the oldest zoo, the largest music festivals, and tons of world
+            heritage sites. Budapest is the city that will keep you entertained.</p>
+
+        <p> The city is full of surprises and wonders with hidden & exciting spots, a lively center majestic river, tall
+            church spires and a lot more to make the most of your time.</p>
+        <a href="https://twomonkeystravelgroup.com/top-10-festivals-world/">
+            Check out top 10 best festivals in the World</a>
+        <p> If you’re an art lover then Budapest could be the perfect destination for you because it has more than 100
+            Museums & galleries and 40+ theaters.</p>
+
+        <p> <b>Top Vacation Spots in Budapest:</b></p>
+        <ul>
+            <li> Chain Bridge</li>
+            <li> Parliament Building</li>
+            <li> Heroes Square</li>
+            <li> Buda Castle</li>
+            <li> Szechenyi Spa Baths</li>
+            <li> Margaret Island</li>
+            <li> House of Terror</li>
+            <li> Faust Wine Cellars</li>
+        </ul>
+        <p> <a href="t.html"> Back To Top</a></p>
+
+
+
+        <h2> 9. Taj Mahal, India</h2>
+        <div class="pics"><img src="pics\74.jpg" height="700px"><img src="pics\ag.jpg"><img src="pics\fa.jpg"></div><br>
+        <p> An immense mausoleum of white marble, built-in Agra by Mughal emperor Shah Jahan in memory of his wife
+            Mumtaz,
+            the monument is breathtakingly beautiful. The tranquility of white is universally spread over the Taj. It is
+            one
+            of the masterpieces of world heritage and also one of the best travel destinations in the world.</p>
+
+        <p>Standing on the banks of the Yamuna River, Agra it is one of the best tourist attractions in the world. With
+            the
+            most beautiful hotels and places to stay, you will be charmed with the hospitality the accommodations will
+            have
+            to offer you.</p>
+
+        <p> If you have a strong palette, do try the street food in Agra as it is famous for some ‘Indian Chats’. There
+            are
+            more monuments and gardens near the Taj Mahal that are equally beautiful and worth a visit.</p>
+
+
+        <p> <b>Major tourist attractions near Taj Mahal:</b></p>
+        <ul>
+            <li>Agra Fort</li>
+            <li> Mehtab Bagh</li>
+            <li>Jama Masjid</li>
+            <li> Wildlife SOS</li>
+            <li>Fatehpur Sikri</li>
+            <li> Shopping in Agra</li>
+        </ul>
+        <p> <a href="t.html"> Back To Top</a></p>
+
+
+        <h2> 10. Madrid, Spain</h2>
+        <div class="pics"><img src="pics\75.jpg" height="600px"><img src="pics\madr.jpg" height="600px"><img src="pics\sp.jpg" height="900px" width="1200px"></div><br>
+        <p> Madrid, the Capital of Spain is one of the best travel destinations in the world. This city is famous for
+            being
+            open for all kinds of travelers with the famous museums, busy streets, vibrant nightlife, cultural heritage,
+            scenic structure, century-old bars and clam historic spots.</p>
+
+        <p>The main highlight of this city is Museo Del Prado. It is a collection of elite arts of Spain and Europe.
+            Goya,
+            Durero, Rembrandt and Velazquez is the best attractions of Museo del Prado. It is a home of 7000+ paintings.
+        </p>
+
+        <p> <a href="t.html"> Back To Top</a></p>
+
+
+        <!-- <h2>11. Bryce Canyon Bryce, Utah – Perfect Place for Travel Geek</h2>
+        <div class="pics"><img src="pics\76.jpg"><img src="pics\333.jpg"><img src="pics\333.jpg"></div>
+        <br>
+        <p>
+            Bryce Canyon National Park is an American national park located in southwestern Utah. This place is famous
+            for
+            layered red and orange sedimentary as it provides the mystique beauty to this place. The presence of hoodoos
+            which are geological structures has made this place a famous one with more than 2 million people visiting it
+            every year.</p>
+
+        <p> <b>Best time to visit Bryce Canyon?</b></p>
+        <p> May to September is considered the best time to visit Bryce Canyon National park. During that period you get
+            plenty of ranger activities and the warmest weather of the year.</p>
+
+        <p><b>Top Sight at Bryce Canyon National Park:</b></p>
+        <ul>
+            <li> Navajo Loop Trail</li>
+            <li> Queens Garden Trail</li>
+            <li> Mossy Cave</li>
+            <li>Inspiration point</li>
+            <li>Bryce Amphitheater</li>
+            <li> Fairyland Canyon</li>
+            <li>Wall Street</li>
+            <li>Thors Hammer</li>
+            <li>Bristlecone Point</li>
+            <li>Things to do at Bryce Canyon National Park:</li>
+            <li>Hiking</li>
+            <li> Camping</li>
+            <li> Horse Riding</li>
+            <li> ATV Tour</li>
+        </ul>
+        <p> <a href="t.html"> Back To Top</a></p>
+
+
+        <h2>12. Norway, Europe</h2>
+        <div class="pics">
+            <img src="pics\79.jpg"><img src="pics\333.jpg"><img src="pics\333.jpg">
+        </div><br>
+        <p>Norway is one of the most beautiful and happiest countries on earth. It has something to offer to every kind
+            of
+            traveler such as the northern lights, the midnight sun, and one of the best places to glimpse the Aurora
+            Borealis is the Lofoten Islands, in northwestern Norway.</p>
+
+        <p> <b>Most beautiful places to visit in Norway:</b></p>
+        <ul>
+            <li>Trondheim</li>
+            <li> Sognefjord</li>
+            <li>Waterfalls valley</li>
+            <li> North Cape</li>
+            <li>Lofoten Island</li>
+            <li>Bergen</li>
+            <li> Fantoft Stave Church</li>
+        </ul>
+        <p> <a href="t.html"> Back To Top</a></p>
+
+
+        <h2>13. Valley of Flower Trek, Uttarakhand– Heaven on Earth</h2>
+        <div class="pics"><img src="pics\val.jpg"><img src="pics\333.jpg"><img src="pics\333.jpg"></div><br>
+        <p> Valley of Flower Trek is located in the state of Uttarakhand at the height of the West Himalayas. This
+            beautiful
+            place was discovered by a British traveler named Frank Smith in the year 1931. The Valley of Flower Trek is
+            surrounded by the mighty Himalayas peaks.</p>
+
+        <p>The imagery of standing amidst the colorful Valley of flowers with snow-covered peaks of the Himalayas
+            surrounding you is captivating. This valley is like a dream come true for every photographer and one of the
+            best
+            vacation spots in the world.</p>
+
+        <p> All the adventurers and explorers trek through this fascinating valley that showcases a variety of flowers
+            like
+            Saxifraga, sediams, lilies, poppy, calendula, daisies, geranium, zinnia and petunia.</p>
+
+        <p> Check out best summer destinations in India</p>
+
+        <p><b>Best Places to visit near Valley of Flower Trek:</b></p>
+        <ul>
+            <li> Gorson Bugyal</li>
+            <li> Malari</li>
+            <li> Nanda Devi National Park</li>
+            <li>Govindghat</li>
+            <li>Mana Village</li>
+        </ul>
+        <p> <a href="t.html"> Back To Top</a></p>
+
+
+        <h2> 14. Maldives</h2>
+        <div class="pics"><img src="pics\81.jpg"><img src="pics\333.jpg"><img src="pics\333.jpg"></div><br>
+        <p> Maldives is a South Asian Island Country. It is one of the most popular tourist attractions in the world or
+            you
+            can say paradise on earth. The interesting thing about the Maldives is that the first underwater cabinet
+            meeting
+            was held here. The actual beauty of this place is underwater with colorful coral reefs, exotic fishes and
+            vibrant marine life.</p>
+
+        <p> It is a place where nature at its best. A perfect place for those who enjoy the water around. The ideal
+            temperature of Maldives makes it ideal for water activities like swimming, snorkeling, surfing, fishing,
+            scuba
+            diving.</p>
+
+        <p> Check out 16 best things to do in Maldives</p>
+        <p> <b>Top tourist attractions in the Maldives:</b></p>
+        <ul>
+            <li>Banana reef</li>
+            <li> Island hopping</li>
+            <li> Water sport</li>
+            <li> Sun Island</li>
+            <li> Alimatha Island</li>
+            <li> HP reef</li>
+            <li> Artificial beaches</li>
+            <li>Biyadhoo Island</li>
+            <li>Ithaa Undersea Dining</li>
+        </ul>
+        <p> <a href="t.html"> Back To Top</a></p>
+
+
+        <h2> 15. Guilin China – The Magical Place</h2>
+        <div class="pics"><img src="pics\82.jpg"><img src="pics\333.jpg"><img src="pics\333.jpg"></div><br>
+        <p> gullin china - top vacations spots in the world</p>
+        <p>Every corner of this extraordinary place would astonish you. As you begin to explore, you will be amazed by
+            the
+            findings in every nook and corner of this city. Guilin is built around two rivers and lakes that are
+            interconnected.</p>
+
+        <p> Many distinctive bridges crisscross the waterways. As visitors, you will enjoy the walking trail that can
+            spend
+            numerous hours meandering near the lovely waterway and lakes making Guilin what it is.</p>
+
+        <p><b>Best tourist attractions in Guilin China:</b></p>
+        <ul>
+            <li>Li River Guilin</li>
+            <li>Yangshuo</li>
+            <li>The Reed Flute Cave</li>
+            <li>Elephant Trunk Hill</li>
+            <li> Seven Star park</li>
+            <li>Folded Brocade Hill</li>
+            <li>Fubo</li>
+            <li>Solitary Beauty Hill</li>
+            <li>Longji Terraced Field</li>
+        </ul>
+        <p> <a href="t.html"> Back To Top</a></p>
+
+
+        <h2>16. Queenstown New Zealand</h2>
+        <div class="pics"><img src="pics\83.jpg"><img src="pics\333.jpg"><img src="pics\333.jpg"></div><br>
+
+        <p> Queenstown is located on the shoreline of Lake Wakatipu, New Zealand. It is the third-largest lake by
+            surface
+            area in New Zealand. Owing to its beauty and the landscapes, the most iconic movie called ‘Mission
+            Impossible’
+            was shot here.</p>
+
+        <p> It is a great place for adventure seeker with numerous year around adventurous activities like rafting,
+            riding,
+            horse trekking, jet boating, sky diving, bungy jumping, canyon swinging and skiing (in winter).</p>
+
+        <p> <b>Top sights in Queenstown:</b></p>
+        <ul>
+            <li>Milford Sound</li>
+            <li> Lake Wakatipu</li>
+            <li>Lake Wanaka</li>
+            <li>The Remarkable Ski area</li>
+            <li>Skippers Road</li>
+            <li> Hollyford Track</li>
+            <li>Lake Hayes</li>
+            <li>Kiwi Birdlife Park</li>
+            <li>Moke Lake</li>
+        </ul>
+        <p> <a href="t.html"> Back To Top</a></p>
+
+
+        <h2> 17. Verona, Italy- The town of Romeo and Juliet</h2>
+        <div class="pics"> <img src="pics\84.jpg"><img src="pics\333.jpg"><img src="pics\333.jpg"></div><br>
+        <p>Verona is deemed as one of the most romantic cities in Italy, famous for the most tragic love story of all
+            time,
+            Romeo and Juliet. And for this reason, it’s impossible to visit Verona without seeing Juliet’s infamous
+            balcony.</p>
+
+        <p><i>The interesting thing about this place is that people used to write notes declaring their love for someone
+                on
+                the courtyard walls and now more than 5,000 letters are received every year.</i></p>
+
+        <p><b> Best places to visit in Verona Italy:</b></p>
+        <ul>
+            <li> Lake Garda</li>
+            <li>Juliet’s House</li>
+            <li> Verona Arena</li>
+            <li> Piazza Bra</li>
+            <li> Basilica of San Zeno Maggiore</li>
+            <li> Verona Cathedral</li>
+            <li> Castel San Pietro</li>
+        </ul>
+        <p> <a href="t.html"> Back To Top</a></p>
+
+
+        <h2>18. Cappadocia, Turkey – Most Magical Place on Earth</h2>
+        <div class="pics"><img src="pics\85.jpg"><img src="pics\333.jpg"><img src="pics\333.jpg"></div><br>
+        <p> Magic can only be seen and seeing is believing. This amazing place in Turkey offers a breathtaking view that
+            words would fall short when we begin to explain it. Coming to Cappadocia’s you realize that everything done
+            by
+            nature has its own beauty.</p>
+
+        <p>The volcanic eruptions are also shaped magically into a beauty making humans realize their worth in front of
+            nature. According to the World Tourism Ranking, 45 Million people visit Turkey each year, and from that
+            about 2
+            Million come to visit Cappadocia.</p>
+
+        <p><b> Best places to visit in Cappadocia:</b></p>
+        <ul>
+            <li>Goreme open-air Museum</li>
+            <li>Goreme</li>
+            <li> Hot-air Ballooning</li>
+            <li> Zelve open-air Museum</li>
+            <li>Derinkuyu underground city</li>
+            <li> Red and rose valley</li>
+            <li> Cavusin, Soganil</li>
+        </ul>
+        <p> <a href="t.html"> Back To Top</a></p>
+
+
+
+
+        <h2> 19. Sydney, Australia</h2>
+        <div class="pics"><img src="pics\86.jpg"><img src="pics\333.jpg"><img src="pics\333.jpg"></div><br>
+        <p> The city is very multicultural, so the food on offer is delicious, and it’s also a fantastic shopping
+            destination. It is one of the most visited tourist destinations in the country and the best holiday
+            destination
+            in the world, attracting over 32 million visitors per year.</p>
+
+
+        <p><b> Best place to visit in Sydney:</b></p>
+        <ul>
+            <li> Opera house</li>
+            <li> Harbour bridge</li>
+            <li> Bodi Beach</li>
+            <li>Royal Botanic Garden</li>
+            <li>Darling Harbour</li>
+            <li>Queen Victoria Building</li>
+            <li>The Sydney Tower Eye</li>
+            <li>Taronga Zoo</li>
+        </ul>
+        <p> <a href="t.html"> Back To Top</a></p>
+
+
+
+
+        <h2> 20. Mount Fuji, Japan – Perfect place for Adventure</h2>
+        <div class="pics"> <img src="pics\87.jpg"><img src="pics\333.jpg"><img src="pics\333.jpg"></div><br>
+        <p>
+            Mount Fuji is a beautiful collection of the highest and most beautiful mountains in the world. You can
+            easily
+            compare this to a book full of poetries and each one has its own meaning and warmth. Mount Fuji is the
+            highest
+            peak in the Fuji volcanic chain in central Japan. Every year more than a million people visit this beautiful
+            wonder of nature.</p>
+
+        <p><b> Where is the best view of Mount Fuji?</b></p>
+        <p> Here are some of the best views of Mount Fuji: Lake Kawaguchi, Lake Motosuko, Lake Sai, Mount Takao,
+            Kamakura,
+            Bunkyo Bikku Center and many more…</p>
+
+        <p> <b>Best places to visit in Mount Fuji:</b></p>
+        <ul>
+            <li> Fuji 5th Station</li>
+            <li> Lake Kawaguchiko</li>
+            <li> Gotemba Premium Outlet</li>
+            <li> Oshino Hakkai Springs</li>
+            <li> Shiraito Falls</li>
+            <li> Lake Motosuko</li>
+            <li> Snow Town Yeti</li>
+        </ul>
+        <p> <a href="t.html"> Back To Top</a></p> -->
+
+
+        <div class="item" id="a">
+            <p> Going through these amazing places, your bucket list would now be ready! These places are ready to
+                bestow
+                their
+                magic upon you. If you have already visited some of them, you may let us know your experience.</p>
+            <p> Did you visit any of the places from the above list? Share your experience with us in the below comment
+                section.</p>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer"> Copyright &copy; Infringement fusionfy1234,All rights reserved</div>
+    </footer>
+
+</body>
+
+</html>

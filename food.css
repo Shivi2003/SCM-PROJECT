@@ -1,0 +1,272 @@
+html,body{
+    margin:0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+:root{
+    --gradient colors--
+    --babypink: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+-- theme font-family--
+    --Abel:'Abel',cursive;
+    --Anton:'Anton',cursive;
+    --Josefin:'Josefin',cursive;
+    --Lexend:'Lexend',cursive;
+    --Livvic:"Livvic"cursive;
+}
+a{
+    text-decoration: none;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+h1{
+    font-family: var(--Lexend);
+    font-size: 4.5rem;
+}
+
+h2{
+    font-family: var(--Lexend);
+}
+
+h3{
+    font-family: var(--Abel);
+    font-size: 1.3rem;
+}
+
+button.btn{
+    border:none;
+    border-radius: 2rem;
+    padding: px;
+    font-size: 1rem;
+    font-family: var(--Livvic);
+    cursor:pointer;
+}
+
+.nav{
+    background:white;
+    padding:px;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+}
+
+.nav .nav-menu{
+    justify-content: space-between;
+}
+
+.nav .toggle-collapse{
+    position:absolute;
+    top: 0%;
+    width: 90%;
+    cursor:pointer;
+    display: none;
+    transition: 1s ease-in-out;
+}
+
+.nav .toggle-collapse .toggle-icons{
+    display:flex;
+    justify-content:flex-end;
+}
+
+.nav .toggle-collapse .toggle-icons i{
+    font-size: 1.4rem;
+    color:var(--text-gray);
+}
+
+.collapse{
+    height: 30rem;
+}
+
+
+.nav .nav-items{
+    display:flex;
+    margin:0;
+}
+
+.nav .nav-items .nav-link{
+    padding: 20px;
+    font-size: 20px;
+    position:relative;
+    font-family: var(--Abel);
+}
+
+.nav .nav-items .nav-link:hover{
+    background-color:var(--midnight);
+}
+
+.nav .nav-items .nav-link:hover a{
+    color:var(--white);
+}
+
+
+.nav .nav-brand a{
+    font-size: 1.6rem;   
+    padding: 10px;
+    display:block;
+    font-family:var(--Lexend);
+    font-size: 35px;
+}
+ 
+.nav .social{
+    padding: 10px;
+    font-size: 25px;
+    justify-content: right;
+}
+
+.nav .social i{
+    padding: 10px;;
+}
+
+.nav .social i:hover{
+    color:#a1c4cf;
+}
+main .site-title{
+    background: url(https://x.yummlystatic.com/web/banner-marble-bkg.jpg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+main .site-title .site-background{
+    text-align:center;
+    color:var(--bg-color);
+}
+
+main .site-title h1,h3{
+    margin: .3rem;
+}
+
+main .site-title .btn{
+    margin: 1.8rem;
+    background:red;
+}
+
+main .site-title .btn:hover{
+    background: transparent;
+    border: 1px solid(--white);
+    color:var(--white);
+
+}
+
+.search-box{
+    position: relative;
+    left: 130px;
+    top: 35px;
+    align-items: center;
+    transform: translate(-50%,-50%);
+    background: whitesmoke;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    width: 250px;
+    
+}
+
+.search-btn{
+    color: purple;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    color: black;
+    font-size: 18px;
+    line-height: 35px;
+    width: 200px;
+    padding: 0px;
+}
+.heading{
+    color: goldenrod;
+    font-size: 25px;
+    align-items: center;    
+}
+.para{
+    font:normal;
+    font-size: 20px;
+    padding-left: 10px;
+    
+}
+.wrapper{
+    position: relative;
+    display: grid;
+    padding-left: 30px;
+    left: 50px;
+}
+.heading1{
+    position: relative;
+    left: 385px;
+}
+.relative{
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+    background-color: goldenrod;
+    width: 115px;
+    position: relative;
+    left: 70px;
+    bottom: 30px;
+}
+.relative1{
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+    background-color: goldenrod;
+    width: 160px;
+    position: relative;
+    left: 365px;
+    bottom: 78px;
+}
+.relative2{
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+    background-color: goldenrod;
+    width: 160px;
+    position: relative;
+    left: 675px;
+    bottom: 126px;
+}
+.relative3{
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+    background-color: goldenrod;
+    width: 200px;
+    position: relative;
+    left: 950px;
+    bottom: 174px;
+}
+.relative:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.relative1:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.relative2:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}.relative:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}

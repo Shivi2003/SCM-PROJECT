@@ -1,0 +1,161 @@
+.header-img{
+    margin-left: 35px;
+    display: inline-block;
+    padding: 0%;
+}
+.header{
+    background-color:lavender;
+    border: 12px solid rgb(247, 180, 202);
+}
+
+
+
+
+.fusionfy{
+    font-size: 25px;
+    font-family: emoji;
+     text-transform: uppercase;
+     text-decoration: underline;
+     color:rgb(16, 16, 78);
+    
+    
+}
+.blog-name{
+    font-size: 60px;
+    text-align: center;
+     margin-top: -55px;
+     margin-left: 50px;
+     line-height: 1.8;
+     font-family: emoji;
+     text-decoration: underline;
+     
+     text-transform: uppercase;
+     font-family: emoji;
+     color:rgba(112, 4, 112, 0.829);
+
+}
+.h2{
+    text-transform: uppercase;
+    font-family: cursive;
+}
+#main{
+
+    color: rgb(16, 16, 78);
+    background-color: lavenderblush;
+    margin-top: 80px;
+    border: #91a6ec 12px solid;
+    
+}
+.ol-first{
+    text-align: left;
+    border: 6px solid purple;
+    width: 60%;
+    box-sizing: content-box;
+    border-radius: 40px;
+    padding-left: 30PX;
+
+}
+.ol-second{
+    text-align: left;
+    border: 6px solid rgb(48, 241, 73);
+    margin-left: 500px;
+    width: 60%;
+    box-sizing: content-box;
+    border-radius: 40px;
+    padding-left: 30PX;
+}
+.ol-three{
+    text-align: left;
+    border: 6px solid rgb(95, 218, 248);
+    width: 60%;
+    box-sizing: content-box;
+    border-radius: 40px;
+    padding-left: 30PX;
+}
+
+.ul-one{
+    text-align: left;
+    border: 6px solid palevioletred;
+    width: 60%;
+    box-sizing: content-box;
+    border-radius: 40px;
+    padding-left: 30PX;
+    font-size: 24px;
+    font-family: cursive;
+    margin-left: 400px;
+    color: rgb(16, 16, 78);
+}
+.ul-two{
+    text-align: left;
+    border: 6px solid rgb(86, 255, 13);
+    width: 60%;
+    box-sizing: content-box;
+    border-radius: 40px;
+    padding-left: 30PX;
+    font-size: 24px;
+    font-family: cursive;
+    color: rgb(16, 16, 78);
+}
+.ul-three{
+    text-align: left;
+    border: 6px solid rgb(26, 29, 209);
+    width: 60%;
+    box-sizing: content-box;
+    border-radius: 40px;
+    padding-left: 30PX;
+    font-size: 24px;
+    font-family: cursive;
+    margin-left: 500px;
+    color: rgb(16, 16, 78);
+}
+.ul-four{
+    text-align: left;
+    border: 6px solid rgb(228, 52, 52);
+    width: 60%;
+    box-sizing: content-box;
+    border-radius: 40px;
+    padding-left: 30PX;
+    font-size: 24px;
+    font-family: cursive;
+    color: rgb(16, 16, 78);
+    
+}
+}
+
+
+.div2{
+    box-sizing: content-box;
+}
+.section{
+    margin-left: 100px;
+    
+    box-sizing: content-box;
+    border-radius: 40px;
+    margin-top: 40px;
+}
+.last{
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: emoji;
+    text-align: center;
+    color: rgb(16, 16, 78);
+}
+
+
+
+
+
+
+
+.wellness{
+     font-size: 24px;
+     font-family: cursive;
+     line-height: 1.6;
+
+}
+
+.well{
+    text-align: center;
+    
+     text-transform: uppercase;
+}
